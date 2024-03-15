@@ -61,8 +61,6 @@ body {
 
 .home {
     height: 100vh;
-    background: url('logo.jpg') no-repeat;
-    background-size: cover; 
     background-position: center;
     display: flex;
     align-items: center;
@@ -261,6 +259,12 @@ body {
 
 .home-sci a:hover::before {
     width: 100%;
+}
+
+.img-logo {
+    width: 600px;
+    height: 100%;
+    padding-left: 75px;
 }
 
 @keyframes showRight {
