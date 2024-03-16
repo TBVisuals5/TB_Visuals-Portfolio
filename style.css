@@ -179,11 +179,7 @@ body {
 }
 
 .btn-box a:nth-child(2):hover {
-    background: #081b29;
-}
-
-.btn-box a:nth-child(2)::before {
-    background: #081b29;
+    color: #081b29;
 }
 
 .btn-box a:nth-child(2)::before {
@@ -269,6 +265,21 @@ body {
     width: 600px;
     height: 100%;
     padding-left: 75px;
+}
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 105px;
+    width: 500px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
+
+.home-imgHover:hover {
+    background: #081b29;
+    opacity: .8;
+
 }
 
 @keyframes showRight {
