@@ -1,3 +1,5 @@
+/* Home Page */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -285,7 +287,7 @@ body {
 
 .card {
     position: relative;
-    margin-left: 1600px;
+    margin-left: 1570px;
     margin-top: -630px;
     width: 500px;
     height: 400px;
@@ -361,3 +363,218 @@ body {
         width: 0;;
     }
 }
+
+/* Content Page */
+
+/* Founders Day 2024 Pictures */
+
+.part {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-1 {
+    width: 500px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: 80px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-2 {
+    width: 500px;
+    height: 700px;
+    margin-left: 800px;
+    margin-top: -700px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-3 {
+    width: 500px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: 190px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-4 {
+    width: 500px;
+    height: 700px;
+    margin-left: 800px;
+    margin-top: -700px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .neil-1, .aj-1, .teddy-1, .maaco-1 {
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .text {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+   }
+
+   /* Nature */
+
+   .card-5 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-6 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-7 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-8 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .landscape-1 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .landscape-2 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .landscape-3 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .landscape-4 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   /* Homecoming 2023 */
+
+   .card-9 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-10 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-11 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+   .card-12 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+
+
+   .hoco-1 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .hoco-2 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .hoco-3 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
+
+   .hoco-4 {
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+   }
