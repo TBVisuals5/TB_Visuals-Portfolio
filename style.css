@@ -835,9 +835,7 @@ body {
     
     .card {
         position: relative;
-        margin-left: 320px;
-        margin-top: 30px;
-        margin-bottom: 15px;
+        margin: 350px 35px 14px;
         width: 240px;
         height: 220px;
         background-color: #f2f2f2;
