@@ -301,18 +301,18 @@ body {
     box-shadow: 0 0 0 5px #ffffff80;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
-  
+
   .card svg {
     width: 48px;
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
-  
+
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   }
-  
+
   .card__content {
     position: absolute;
     top: 0;
@@ -326,22 +326,22 @@ body {
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
-  
+
   .card:hover .card__content {
     transform: rotateX(0deg);
   }
-  
+
   .card__title {
     margin: 0;
     font-size: 24px;
     color: #333;
     font-weight: 700;
   }
-  
+
   .card:hover svg {
     scale: 0;
   }
-  
+
   .card__description {
     margin: 10px 0 0;
     font-size: 14px;
@@ -356,7 +356,7 @@ body {
     align-items: center;
     padding-left: 50px;
   }
-  
+
 
 @keyframes showRight {
     100% {
@@ -376,19 +376,19 @@ body {
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
    }
-  
+
   .part-1 {
       margin-top: 100px;
       margin-bottom: 100px;
       display: flex;
   }
-  
+
   .part-2 {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
   }
-  
+
   .card-1 {
       width: 500px;
       height: 700px;
@@ -398,7 +398,7 @@ body {
       box-shadow: 15px 15px 30px rgb(25, 25, 25),
                   -15px -15px 30px rgb(60, 60, 60);
      }
-  
+
      .card-2 {
       width: 500px;
       height: 700px;
@@ -408,7 +408,7 @@ body {
       box-shadow: 15px 15px 30px rgb(25, 25, 25),
                   -15px -15px 30px rgb(60, 60, 60);
      }
-  
+
      .card-3 {
       width: 500px;
       height: 700px;
@@ -418,7 +418,7 @@ body {
       box-shadow: 15px 15px 30px rgb(25, 25, 25),
                   -15px -15px 30px rgb(60, 60, 60);
      }
-  
+
      .card-4 {
       width: 500px;
       height: 700px;
@@ -428,13 +428,13 @@ body {
       box-shadow: 15px 15px 30px rgb(25, 25, 25),
                   -15px -15px 30px rgb(60, 60, 60);
      }
-  
+
      .neil-1, .aj-1, .teddy-1, .maaco-1 {
       width: 500px;
       height: 700px;
       border-radius: 30px;
      }
-  
+
    /* Nature */
 
    .card-5 {
@@ -699,7 +699,7 @@ body {
     color: #081b29;
     text-align: center;
    }
-    
+
    .price-col p {
     font-size: 22px;
    }
@@ -743,7 +743,7 @@ body {
    }
 
  @media only screen and (max-width: 600px) {
-    
+
     /* Home Page */
 
     .header {
@@ -757,7 +757,7 @@ body {
         padding-top: 20px;
         z-index: 100;
     }
-    
+
     .logo {
         position: relative;
         font-size: 13px;
@@ -775,13 +775,22 @@ body {
         padding-top: 20px;
         transition: .3s;
     }
-    
+
+    .home {
+        height: 100vh;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        margin: 0px 55px;
+    }
+
     .home-content {
         max-width: 250px;
         margin: 0 auto;
         text-align: center;
     }
-    
+
     .home-content h1 {
         position: relative;
         font-size: 32px;
@@ -797,13 +806,13 @@ body {
         color: #00abf0;
         margin: 0px auto 10px;
     }
-    
+
     .home-content p {
         position: relative;
         font-size: 12px;
         margin: 0px auto 5px;
     }
-    
+
     .home-content .btn-box {
         position: relative;
         display: flex;
@@ -813,7 +822,7 @@ body {
         padding: 0px 22px;
         margin: 10px auto;
     }
-    
+
     .home-sci {
         position: relative;
         bottom: 10px;
@@ -822,8 +831,10 @@ body {
         justify-content: space-between;
         margin-top: 700px;
         margin-left: -185px;
+        margin-right: 0 auto;
+        margin-left: 0 auto;
     }
-    
+
     .img-logo {
         position: relative;
         width: 400px;
@@ -832,10 +843,10 @@ body {
         margin-left: -300px;
         margin-bottom: 80px;
     }
-    
+
     .card {
         position: relative;
-        margin: 350px 35px 14px;
+        margin: 350px auto 15px;
         width: 240px;
         height: 220px;
         background-color: #f2f2f2;
@@ -854,12 +865,12 @@ body {
         fill: #333;
         transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       }
-      
+
       .card::before {
         transform: scale(1.05);
         box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
       }
-      
+
       .card__content {
         position: absolute;
         top: 0;
@@ -873,29 +884,29 @@ body {
         transform-origin: bottom;
         transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       }
-      
+
       .card::before .card__content {
         transform: rotateX(0deg);
       }
-      
+
       .card__title {
         margin: 0;
         font-size: 12px;
         color: #333;
         font-weight: 700;
       }
-      
+
       .card::before svg {
         scale: 0;
       }
-      
+
       .card__description {
         margin: 5px 0 0;
         font-size: 7px;
         color: #777;
         line-height: 1.4;
       }
-    
+
       .picture {
         width: 200px;
         height: 130px;
@@ -922,7 +933,7 @@ body {
         display: inline;
         justify-content: space-between;
     }
-    
+
     .part-2 {
         margin: 10px 5px auto;
         display: inline;
@@ -938,7 +949,7 @@ body {
         box-shadow: 15px 15px 30px rgb(25, 25, 25),
                     -15px -15px 30px rgb(60, 60, 60);
        }
-    
+
        .card-2 {
         width: 260px;
         height: 380px;
@@ -948,7 +959,7 @@ body {
         box-shadow: 15px 15px 30px rgb(25, 25, 25),
                     -15px -15px 30px rgb(60, 60, 60);
        }
-    
+
        .card-3 {
         width: 260px;
         height: 380px;
@@ -958,7 +969,7 @@ body {
         box-shadow: 15px 15px 30px rgb(25, 25, 25),
                     -15px -15px 30px rgb(60, 60, 60);
        }
-    
+
        .card-4 {
         width: 260px;
         height: 380px;
@@ -968,7 +979,7 @@ body {
         box-shadow: 15px 15px 30px rgb(25, 25, 25),
                     -15px -15px 30px rgb(60, 60, 60);
        }
-    
+
        .neil-1, .aj-1, .teddy-1, .maaco-1 {
         width: 260px;
         height: 380px;
@@ -1030,7 +1041,7 @@ body {
             display: inline;
             justify-content: space-between;
         }
-        
+
         .part-2 {
             margin: 10px 5px auto;
             display: inline;
