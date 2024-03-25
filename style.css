@@ -1204,7 +1204,7 @@ body {
            }
 
            .place {
-            margin: 10px auto 500px;
+            margin: 10px auto 50px;
            }
         
            .container {
@@ -1282,8 +1282,5 @@ body {
             transition: .5s;
            }
         
-
-
-
 }
 
