@@ -19,8 +19,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 14px 10%;
+    background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1180,6 +1180,108 @@ body {
         .h2 {
             font-size: medium;
         }
+
+        /* Services Page */
+
+        .h2 {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 20px;
+            font-weight: 300;
+            font-family: 'Poppins', sans-serif;
+            color: #ededed;
+           }
+        
+           .title {
+            text-align: center;
+            margin-top: 150px;
+            margin-bottom: 50px;
+            font-size: 60px;
+            font-weight: 300;
+            font-family: 'Poppins', sans-serif;
+            color: #ededed;
+           }
+
+           .place {
+            margin: 10px auto 500px;
+           }
+        
+           .container {
+            width: 100%;
+            max-height: 100vh;
+           }
+        
+           .container h1 {
+            color: #ffff;
+            font-size: 25px;
+            padding: 25px 0;
+            text-align: center;
+          }
+        
+          .container h2 {
+           color: #ffff;
+           font-size: 15px;
+           padding: 10px 0;
+           text-align: center;
+          }
+        
+           .price-row {
+            width: 90%;
+            max-width: 1100px;
+            margin: 10px auto 15px;
+            display: grid;
+            grid-auto-columns: auto;
+            grid-template-columns: repeat(auto-fill, minmax(98px, 1fr));
+            grid-gap: 5px;
+           }
+        
+           .price-col {
+            background: white; 
+            padding: 5% 10%;
+            border-radius: 10px;
+            color: #081b29;
+            text-align: center;
+           }
+        
+           .price-col p {
+            font-size: 15px;
+           }
+        
+           .price-col h3 {
+            font-size: 22px;
+            margin: 20px 0 40px;
+            font-weight: 500;
+           }
+        
+           .price-col h3 span {
+            font-size: 10px;
+           }
+        
+           .price-col ul {
+            text-align: center;
+            margin: 20px 0;
+            color: #081b29;
+            font-size: 10px;
+           }
+        
+           .price-col ul li {
+            margin: 15px 0;
+           }
+        
+           .price-col button {
+            width: 100%;
+            padding: 14px 0;
+            background: transparent;
+            color: #081b29;
+            font-size: 10px;
+            border: 1px solid black;
+            border-radius: 6px;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: .5s;
+           }
+        
 
 
 
